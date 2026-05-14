@@ -70,8 +70,8 @@ const configs = {
   },
   browserstackAndroidDevice: {
     'appium-version': '1.22.0',
-    device: 'Samsung Galaxy S8',
-    os_version: '7.0',
+    device: 'Samsung Galaxy S22 Ultra',
+    os_version: '12.0',
     project: 'HTTP Test App',
     autoWebview: true,
     app: 'HttpTestAppAndroid',
@@ -86,7 +86,7 @@ function getCaps(environment, os, runtime) {
   caps.name = `cordova-plugin-advanced-http (${os})`;
 
   return caps;
-};
+}
 
 function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
